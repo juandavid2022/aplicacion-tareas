@@ -1,0 +1,73 @@
+#tasks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#tasks div{
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 1px white solid;
+    padding-top: 0;
+    border-radius: 5px;
+}
+body{
+    background: #1a1a1a;
+    color: white;
+}
+h1, h2, h3, h4, h5, p, a{
+    color: white;
+}
+.bg-light {
+    background-color: #151515!important;
+}
+.navbar-light .navbar-brand {
+    color: #ffffff;
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color: #ffffff;
+}
+.card {
+    border-radius: 10px;
+}
+p{
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+.center{
+    align-self: center;
+}
+button{
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+}
+button:hover{
+    background: #ffffffb5;
+}
+.promedio{
+    text-align: center;
+    width: 100%;
+    background: white;
+    color: white;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.padding{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+li{
+    margin-left: 20px;
+}
+.success{
+    border: 1px #259234 solid;
+}
+.bad{
+    border: 1px #922525 solid;
+}
+.cerrar{
+    width: 40px;
+    float: right;
+    cursor: pointer;
+}

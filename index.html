@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Calcular Promedio De Materia</title>
+    <!-- BOOTSTRAP 4 BOOTSWATCH LUX THEME -->
+    <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">Calcular Promedio De Materia</a>
+        <p>Juan Diego Ramirez Mogotocoro (SENA)</p>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row my-5">
+        
+        <div class="col-md-4">
+          <div style="color: yellow" >
+            <b>
+              Mayor o igual de 70 en promedio Pasa la materia^^<br><br>
+            Menor de 70 en promedio pierde la materia :(
+            </b>
+          </div><br><br>
+          <div class="card">
+            <div class="card-body">
+              <!-- FORM TO ADD TASKS -->
+              <form id="formTask">
+                <div class="form-group">
+                  <input required type="text" id="title" placeholder="Nombre De Materia" class="form-control">
+                </div>
+                <div class="form-group">
+                  <input required type="number" placeholder="Nota" id="nota" class="form-control">
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Guardar</button>
+               
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-8 center">
+          <div id="tasks">
+              <h4>¡No Se ha registrado ninguna materia!</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
